@@ -1,0 +1,54 @@
+body {
+    background-color: sandybrown;
+    background-image: url("email.jpg");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card {
+    position: relative;
+    border-radius: 5px;
+    background-color: #000000;
+
+}
+
+.container .card .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+
+}
+
+.container .card:nth-child(2) .icon {
+    background: linear-gradient(135deg, #405de6,#405de6,#833ab4,#c13584,#e1306c,#fd1d1d,#f56040,#f77737,#fcaf45,#ffdc80);
+    border-radius: 5px;
+}
+
+.container .card:nth-child(3).icon {
+    background: #131418;
+    border-radius: 5px;
+
+}
+
+.container .card.icon .fa {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+}
+
