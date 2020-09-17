@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+             Voting Management System
+        </title>
+        <link rel="stylesheet" type="text/css"  href="Votingmgmt.css">
+        
+    </head>
+    <body>
+        <div id="from"></div>
+        <form action="Thnx.html"></form>
+
+        <fieldset><legend>
+            <h2> Voting Management System</h2></legend>
+            <label>Name:</label>&nbsp; &nbsp;
+            <input type="text" name="name" placeholder="Enter Your Name" required> <br><br>
+
+            <label>Father Name:</label>&nbsp; &nbsp;
+            <input type="text" name="fname" placeholder="Enter Your Father Name" required> <br><br>
+
+            <label>DOB:</label>&nbsp; &nbsp;
+            <input type="date" name="dob" required> <br><br>
+
+            <label>Gender:</label>&nbsp; &nbsp;
+            <input type="radio" name="gender" class="g" value="male">Male
+            <input type="radio" name="gender" class="g" value="female" checkeds>Female<br><br>
+
+            <label>CNIC:</label>&nbsp; &nbsp;
+            <input type="number" name="cnic" placeholder="Enter Your CNIC Number" maxlength="15" required> <br><br>
+
+            <label>Political Parties</label>&nbsp; &nbsp;
+            <select name="political">
+                <option value="NULL">Choose Political Party</option>
+                <option value="PTI">PTI</option>
+                <option value="PML">PML</option>
+                <option value="PPP">PPP</option>
+                <option value="TLP">TLP</option>
+            </select></br>
+        </fieldset>
+        
+        <input type="submit" name="submit" value="submit">
+    </body>
+</html>
